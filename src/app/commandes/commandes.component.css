@@ -1,0 +1,56 @@
+.app-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00070e;
+    color: rgb(206, 152, 4);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: -60px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+   
+    font-weight: bold;
+  }
+  
+  nav ul li a.active {
+    color: #17a2b8;
+  }
+  
+  .auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .auth button {
+    background-color:rgb(206, 152, 4);
+    color: #081301;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .auth button:hover {
+    background-color:rgb(17, 13, 0);
+    color:rgb(4, 167, 39);
+  }

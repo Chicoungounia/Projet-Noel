@@ -12,7 +12,7 @@ import { ClientsComponent } from './clients/clients.component';
 export const routes: Routes = [
 
     {
-        path: "",
+        path: "intro",
         component: IntroComponent,
         pathMatch: 'full'
 

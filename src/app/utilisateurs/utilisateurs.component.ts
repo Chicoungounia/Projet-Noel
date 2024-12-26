@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from '../header/header.component';
+import { FooterComponent } from '../footer/footer.component';
 
 
 
 
 @Component({
   selector: 'app-utilisateurs',
-  imports: [],
+  imports: [FooterComponent],
   templateUrl: './utilisateurs.component.html',
   styleUrl: './utilisateurs.component.css'
 })
-export class UtilisateursComponent implements HeaderComponent  {
+export class UtilisateursComponent {
 
 }
