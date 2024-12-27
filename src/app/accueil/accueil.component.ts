@@ -5,9 +5,9 @@ import { FooterComponent } from "../footer/footer.component";
 @Component({
   selector: 'app-intro',
   imports: [HeaderComponent, FooterComponent],
-  templateUrl: './intro.component.html',
-  styleUrl: './intro.component.css'
+  templateUrl: './accueil.component.html',
+  styleUrl: './accueil.component.css'
 })
-export class IntroComponent {
+export class AccueilComponent {
 
 }

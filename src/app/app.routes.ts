@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { IntroComponent } from './intro/intro.component';
 import { UtilisateursComponent } from './utilisateurs/utilisateurs.component';
 import { ProduitsComponent } from './produits/produits.component';
 import { CommandesComponent } from './commandes/commandes.component';
 import { ClientsComponent } from './clients/clients.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 
 
@@ -12,11 +12,18 @@ import { ClientsComponent } from './clients/clients.component';
 export const routes: Routes = [
 
     {
-        path: "intro",
-        component: IntroComponent,
+        path: "",
+        component: AccueilComponent,
         pathMatch: 'full'
 
     },
+    {
+        path: "accueil",
+        component: AccueilComponent,
+        pathMatch: 'full'
+
+    },
+
     {
         path: "utilisateurs",
         component: UtilisateursComponent,
