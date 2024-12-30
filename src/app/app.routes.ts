@@ -4,6 +4,7 @@ import { ProduitsComponent } from './produits/produits.component';
 import { CommandesComponent } from './commandes/commandes.component';
 import { ClientsComponent } from './clients/clients.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { ConnectionComponent } from './identification/connection/connection.component';
 
 
 
@@ -13,7 +14,7 @@ export const routes: Routes = [
 
     {
         path: "",
-        component: AccueilComponent,
+        component: ConnectionComponent,
         pathMatch: 'full'
 
     },
