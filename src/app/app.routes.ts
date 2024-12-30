@@ -5,6 +5,7 @@ import { CommandesComponent } from './commandes/commandes.component';
 import { ClientsComponent } from './clients/clients.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { ConnectionComponent } from './identification/connection/connection.component';
+import { InscriptionComponent } from './identification/inscription/inscription.component';
 
 
 
@@ -15,6 +16,12 @@ export const routes: Routes = [
     {
         path: "",
         component: ConnectionComponent,
+        pathMatch: 'full'
+
+    },
+    {
+        path: "inscription",
+        component: InscriptionComponent,
         pathMatch: 'full'
 
     },

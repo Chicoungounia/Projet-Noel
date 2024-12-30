@@ -6,6 +6,8 @@
     background-color: rgb(0, 0, 9);
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 821px;
 
 }
 
@@ -18,7 +20,7 @@
     justify-content: center;  /* Centrer les éléments verticalement */
     align-items: center;  /* Centrer les éléments horizontalement */
     text-align: center;
-    box-shadow: 10px -10px 20px rgb(147, 8, 252);  
+    box-shadow: -10px -10px 20px rgb(147, 8, 252);  
     
 }
 
@@ -27,7 +29,7 @@
  height: 550px;
 display: flex;
 position: absolute;
-left: 682px;
+right: 817px;
 
 }
 
@@ -40,7 +42,7 @@ left: 682px;
     font-size: 16px;
 }
 
-.newUtilisateur {
+.newUtilisateur button {
     background-color: rgb(147, 8, 252) ;  
     color: white;
     margin: 25px;
@@ -49,18 +51,11 @@ left: 682px;
     border-radius: 25px;
     font-size: 20px;
     cursor: pointer;
-      width: 220px;
+    width: 220px;
 }
 
-.newUtilisateur a {
-    text-decoration: none;
-    color: white;
-}
-
-
-
-.newUtilisateur a:hover {
-    color: black;
+.newUtilisateur button:hover {
+    background-color: green; 
 }
 
 h2 {
